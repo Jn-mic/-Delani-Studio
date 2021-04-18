@@ -6,5 +6,6 @@ $(document).ready(function( ){
         $('this').hide();
     });
 
+    $('p.para1').css( 'color','green');
 
 });
