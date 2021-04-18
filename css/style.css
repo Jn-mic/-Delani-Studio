@@ -1,0 +1,82 @@
+#background {
+   height: 700px;
+   background-size: cover;
+   width: 100%;
+   background-image: url(../images/backgrounds/h_img.jpg);
+  
+}
+.text1{
+  text-align: center;
+  color:whitesmoke;
+}
+.text1 > p {
+   padding: 5px;;
+}
+
+.about{
+   justify-content:center;
+   text-align: center;
+}
+.about > p{
+   margin: 5px;
+}
+.service{
+   background-image: url(../images/backgrounds/s_image.jpg);
+   height:400px;
+   position: relative;
+}
+ h1{
+   padding: 100px;
+}
+h4{
+      font-size:20px;
+}
+.sv{
+   text-align: center;
+   justify-content:center
+}
+
+.sv > h1 , p > .sr  {
+   color: white;  
+}
+.sr{
+   color:white;
+}
+
+div > h2 {
+   text-align: center;
+}
+.conta{
+   height:400px;
+   margin-top:20px;
+   background-size: cover;
+   background-image: url(../images/backgrounds/c_image.jpg);
+}
+.futa > .row{
+   margin-top:20px;
+}
+.row-futa{
+   text-align:center;
+   color:green;
+}
+.cont{
+justify-content:center
+p
+ 
+}
+div> h2 {
+   margin-top:20px;
+}
+h3{
+   text-align: center;
+}
+h2{
+   padding: 20px;
+}
+.f1{
+   align-items: center;
+   position: relative;
+   width:30px;
+   opacity:.8;
+
+}
