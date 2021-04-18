@@ -1,5 +1,10 @@
-$(document).ready(function( event){
-    $("imageD").click(function(){
-        return red;
+$(document).ready(function( ){
+    $('#imglogo').show();
+    $("#imgmouse").hide();
+    $('#imgmouse','#imglogo').onclick(function(){
+        $('#imgmouse','#imglogo').show();
+        $('this').hide();
     });
+
+
 });
