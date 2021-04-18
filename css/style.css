@@ -53,7 +53,7 @@ div > h2 {
    background-image: url(../images/backgrounds/c_image.jpg);
 }
 .futa > .row{
-   margin-top:20px;
+   margin-top:10px;
 }
 .row-futa{
    text-align:center;
@@ -69,6 +69,7 @@ div> h2 {
 }
 h3{
    text-align: center;
+   padding-top:40px;
 }
 h2{
    padding: 20px;
