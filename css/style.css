@@ -3,7 +3,7 @@
    background-size: cover;
    width: 100%;
    background-image: url(../images/backgrounds/h_img.jpg);
-  
+
 }
 #lg{
    margin-top:220px;
@@ -21,7 +21,6 @@
 .text1 >  {
    padding: 5px;;
 }
-
 .about{
    justify-content:center;
    text-align: center;
@@ -61,12 +60,10 @@ div > h2 {
    background-size: cover;
    background-image: url(../images/backgrounds/c_image.jpg);
 }
-.futa > .row{
-   margin-top:10px;
-}
-.row-futa{
+  
+.futa{
    text-align:center;
-   color:green;
+   margin-top:20px;
 }
 .cont{
 justify-content:center
@@ -83,10 +80,15 @@ h3{
 h2{
    padding: 20px;
 }
-.f1{
-   align-items: center;
-   position: relative;
-   width:30px;
-   opacity:.8;
+.form{
+   margin-left: 200px;
+   margin-right: 200px;
+   background: transparent;
 
+}
+.overlay{
+   display: none;
+}
+input{
+   background: transparent;
 }

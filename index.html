@@ -22,14 +22,17 @@
             <img src="./images/mouse_click.png" class="lgo">
             </div>
         </div>
-        <div class="about" style="margin-top: 10px;">
-            <h4>ABOUT US</h4>
-                <p class="para1">When you work with us, you are part of a team committed collaborator. All aspect of our software development process are intergrated , interactive <br>  and agile. 
-                <p>Our approach unifies designs, development and product management to create expotional products. </p>  
-                <p>We start each project by understanding your business goals, the user's needs and the product requirements.</p>  
-                <p>Then we help translate them into effective adn elegant solutions.</p>   
-                </p>    
-        </div>
+            <div class="container">
+                <div class="about" style="margin-top: 10px;">
+                    <h4>ABOUT US</h4>
+                        <p class="para1">When you work with us, you are part of a team committed collaborator. All aspect of our software development process are intergrated , interactive <br>  and agile. 
+                        <p>Our approach unifies designs, development and product management to create expotional products. </p>  
+                        <p>We start each project by understanding your business goals, the user's needs and the product requirements.</p>  
+                        <p>Then we help translate them into effective adn elegant solutions.</p>   
+                        </p>    
+                </div>
+            </div>
+        
         <div class="service">
             <div class="sv">
                     <h1 id="scv">SERVICE</h1>
@@ -40,18 +43,22 @@
         <div class="wotwedu">
             <h2>WHAT WE DO</h2>
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-3 text-center"> <img src="images/services_icons/design_icon.png"id="wot1"> <p id="design">Design</p> </div>
-                <div class="col-md-3 text-center"> <img src="images/services_icons/dev_icon.png"  id="wot2" > <p id="dev">Development</p> </div>
-                <div class="col-md-3 text-center"> <img src="images/services_icons/product_icon.png"id="wot3"> <p>PRODUCT MANAGEMENT</p> </div>
-                <div class="col-md-2"></div>
+                
+                <div class="col-md-4 text-center"> <img src="images/services_icons/design_icon.png"id="wot1"> <p id="design">Design</p> </div>
+                <div class="col-md-4 text-center"> <img src="images/services_icons/dev_icon.png"  id="wot2" > <p id="dev">Development</p> </div>
+                <div class="col-md-4 text-center"> <img src="images/services_icons/product_icon.png"id="wot3"> <p>PRODUCT MANAGEMENT</p> </div>
+                
             </div>
         </div>
         <div class="PORTFOLIO">
             <h2>PORTFOLIO</h2>
             <div class="row">
                 <div class="col md-2"></div>
-                <div class="col md-2"> <img src="images/portfolio/work4.jpg "id="pot1" style="width:200px; height: 200px;"> </div>
+                <div class="col md-2" col1> <img src="images/portfolio/work4.jpg "id="pot1" style="width:200px; height: 200px;">
+                    <div class="image-info1 overlay">
+                        <h2> The machine</h2>
+                    </div>
+                </div>
                 <div class="col md-2"> <img src="images/portfolio/work3.jpg" id="pot2" style="width:200px; height: 200px;"> </div>
                 <div class="col md-2"> <img src="images/portfolio/work2.jpg" id="pot3" style="width:200px; height: 200px;"> </div>
                 <div class="col md-3"> <img src="images/portfolio/work1.jpg" id="pot4" style="width:200px; height: 200px;"> </div>
@@ -68,62 +75,40 @@
         </div>
         <div class="conta">
             <h2>CONTACT US</h2>
-            <form action="form-control f">
+            <form action="form-control" class="form" from-group="inlined"> 
                     <div class="row cont ">
                         <div class=" col-6 ">
-                        <label for="name" class="name"></label>
-                        <input type="name" class="form-control" id="name" placeholder="Name.....">
+                            <label for="name" class="name"></label>
+                            <input type="name" class="form-control" id="name" placeholder="Name.....">
                         </div>
                         <div class="col-6">
-                        <label for="name" class="name"></label>
-                        <input type="name" class="form-control" id="email" placeholder="Email.....">
+                            <label for="name" class="name"></label>
+                            <input type="name" class="form-control" id="email" placeholder="Email.....">
                         </div>
                         <div class="form-group">
                             <div class="mb-1">
-                                <label for="text-area" class="form-label"></label>
-                                <textarea class="form-control" id="textarea" rows="6"> Your message here....</textarea>
-                                </div>
+                            <label for="text-area" class="form-label"></label>
+                            <textarea class="form-control" id="textarea" rows="6"> Your message here....</textarea>
+                            </div>
                         </div> 
                     </div>
             </form>
         </div>
-            <div class="futa">
-            <div class="row">
-               <div class="col-sm-2"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/twitter.png"    id="fut1"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/dribble.png"    id="fut2"></div>
-               <div class="col-sm-1"><img src="images/social_icons/facebook.png"    id="fut3"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/skype.png"      id="fut4"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/pinterest.png"  id="fut5"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/behance.png"    id="fut6"></div>
-               <div class="col-sm-1"><img src="images/social_icons/stumble_upon.png"id="fut7"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/you_tube.png"   id="fut8"></div>
-               <div class="col-sm-1"> <img src="images/social_icons/flickr.png"     id="fut9"></div>
-               <div class="col-sm-1"> </div>
+            <div class="futa"> 
+            <img src="images/social_icons/twitter.png"    id="fut1">
+            <img src="images/social_icons/facebook.png"    id="fut3">
+            <img src="images/social_icons/skype.png"      id="fut4">
+            <img src="images/social_icons/pinterest.png"  id="fut5">
+            <img src="images/social_icons/behance.png"    id="fut6">
+            <img src="images/social_icons/stumble_upon.png"id="fut7">
+            <img src="images/social_icons/you_tube.png"   id="fut8">
+            <img src="images/social_icons/flickr.png"     id="fut9">   
         </div>
            
          </div>
-            <h3>@ 2021 Delani studio </h3>
+            <h3> Delani studio <br> @2021  </h3>
            
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 <script src="js/script.js"></script>
 </body>
