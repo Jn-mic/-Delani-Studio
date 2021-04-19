@@ -103,7 +103,11 @@ input{
 .ds{
    display: none;
 }
-.blackstudio, .giraffe, .ontario, .Pyramids,{
+.blackstudio, .giraffe, .ontario, .Pyramids {
   display:none; 
   text-align: center;
 }
+::placeholder {
+   color: #b30f0f;
+   opacity: 1; 
+ }
