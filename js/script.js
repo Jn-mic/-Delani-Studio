@@ -26,6 +26,10 @@ $(document).ready(function(){
     });
 });
     
-$("#pot1").click(function(){
-    $("div.blackstudio").hover();
+$(document).ready(function(){
+    $("#blackstudio").hover(function(){
+        $("div.blackstudio").text();
+    });
+
 });
+    
