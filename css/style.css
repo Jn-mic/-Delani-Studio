@@ -111,3 +111,20 @@ input{
    color: #b30f0f;
    opacity: 1; 
  }
+ .lgo{
+      padding-top : 45px;
+      animation: bounce 2s infinite;
+      padding-bottom: 50px;
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-55px);
+      }
+      60% {
+        transform: translateY(-45px);
+      }
+    
+ }
