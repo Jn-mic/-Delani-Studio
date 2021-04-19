@@ -50,6 +50,15 @@ h4{
    color:white;
 }
 
+
+#overlay1,#overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
+   display:none;
+   height:200px;
+   width: 200px;
+
+
+}
+
 div > h2 {
    text-align: center;
 }
@@ -90,4 +99,7 @@ h2{
 }
 input{
    background: transparent;
+}
+.ds{
+   display: none;
 }
