@@ -1,35 +1,41 @@
-
-// $(document).ready(function(){
-//     $('portfolio').onclick(function(){
-//         $("row.col1").onclick(function(){
-//             $("#pot1","pot2","#pot3","#pot4").show();
-//             $("this").hide();
-//         });
-//     })
-// });
-
+//what we do
 $(document).ready(function(){
     $("#design").click(function(){
         $("div.design",).toggle();
-    });
-});
-
-$(document).ready(function(){
+    })
     $("#devp").click(function(){
         $("div.devp").toggle();
-    });
-});
-
-$(document).ready(function(){
+    })
     $("#prd").click(function(){
         $("div.prd").toggle();
     });
-});
-    
-$(document).ready(function(){
+//portfolio   
+
     $("#blackstudio").hover(function(){
-        $("div.blackstudio").text();
+        $("div.blackstudio").toggle();
     });
+    $("#giraffe").hover(function(){
+        $("div.giraffe").toggle();
+    });
+    $("#ontario").hover(function(){
+        $("div.ontario").toggle();
+    });
+    $("#Pyramids").hover(function(){
+        $("div.Pyramids").toggle();
+    });
+    $("#jim").hover(function(){
+        $("div.jim").toggle();
+    });
+    $("#nice").hover(function(){
+        $("div.nice").toggle();
+    });
+    $("#cal").hover(function(){
+        $("div.cal").toggle();
+    });
+    $("#resturant").hover(function(){
+        $("div.resturant").toggle();
+    });
+
 
 });
     
